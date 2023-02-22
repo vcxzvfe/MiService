@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-
+def readme():
+    with open(README.md,encoding='UTF-8') as f:
+        return f.read()
 import os
 import sys
 
